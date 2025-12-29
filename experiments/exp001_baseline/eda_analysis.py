@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 
-# 日本語フォント設定
-plt.rcParams['font.family'] = ['DejaVu Sans', 'sans-serif']
+# 日本語フォント設定（Noto Sans CJK JP）
+plt.rcParams['font.family'] = ['Noto Sans CJK JP', 'sans-serif']
 plt.rcParams['axes.unicode_minus'] = False
 
 OUTPUT_DIR = '/home/user/claude-code_test/experiments/exp001_baseline/outputs'
